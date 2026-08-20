@@ -1,0 +1,660 @@
+icd_title,icd_code,test_tag
+Intestinal infectious diseases,A00-A09,Infection Markers
+Intestinal infectious diseases,A00-A09,Microbiology/Infection
+Intestinal infectious diseases,A00-A09,Others
+Tuberculosis,A15-A19,Infection Markers
+Tuberculosis,A15-A19,Microbiology/Infection
+Tuberculosis,A15-A19,Others
+Certain zoonotic bacterial diseases,A20-A28,Infection Markers
+Certain zoonotic bacterial diseases,A20-A28,Microbiology/Infection
+Other bacterial diseases,A30-A49,Infection Markers
+Other bacterial diseases,A30-A49,Microbiology/Infection
+Other bacterial diseases,A30-A49,Others
+Infections with a predominantly sexual mode of transmission,A50-A64,Infection Markers
+Infections with a predominantly sexual mode of transmission,A50-A64,Microbiology/Infection
+Infections with a predominantly sexual mode of transmission,A50-A64,Others
+Other spirochaetal diseases,A65-A69,Infection Markers
+Other spirochaetal diseases,A65-A69,Microbiology/Infection
+Other diseases caused by chlamydiae,A70-A74,Infection Markers
+Other diseases caused by chlamydiae,A70-A74,Microbiology/Infection
+Rickettsioses,A75-A79,Infection Markers
+Rickettsioses,A75-A79,Microbiology/Infection
+Rickettsioses,A75-A79,Others
+Viral infections of the central nervous system,A80-A89,Infection Markers
+Viral infections of the central nervous system,A80-A89,Microbiology/Infection
+Viral infections of the central nervous system,A80-A89,Others
+Arthropod-borne viral fevers and viral haemorrhagic fevers,A92-A99,Infection Markers
+Arthropod-borne viral fevers and viral haemorrhagic fevers,A92-A99,Microbiology/Infection
+Arthropod-borne viral fevers and viral haemorrhagic fevers,A92-A99,Others
+Viral infections characterized by skin and mucous membrane lesions,B00-B09,Infection Markers
+Viral infections characterized by skin and mucous membrane lesions,B00-B09,Microbiology/Infection
+Viral infections characterized by skin and mucous membrane lesions,B00-B09,Others
+Viral hepatitis,B15-B19,Infection Markers
+Viral hepatitis,B15-B19,Liver Function
+Viral hepatitis,B15-B19,Microbiology/Infection
+Viral hepatitis,B15-B19,Others
+Human immunodeficiency virus [HIV] disease,B20-B24,Infection Markers
+Human immunodeficiency virus [HIV] disease,B20-B24,Microbiology/Infection
+Human immunodeficiency virus [HIV] disease,B20-B24,Others
+Other viral diseases,B25-B34,Infection Markers
+Other viral diseases,B25-B34,Microbiology/Infection
+Other viral diseases,B25-B34,Others
+Mycoses,B35-B49,Infection Markers
+Mycoses,B35-B49,Microbiology/Infection
+Mycoses,B35-B49,Others
+Protozoal diseases,B50-B64,Infection Markers
+Protozoal diseases,B50-B64,Microbiology/Infection
+Protozoal diseases,B50-B64,Others
+Helminthiases,B65-B83,Infection Markers
+Helminthiases,B65-B83,Microbiology/Infection
+Helminthiases,B65-B83,Others
+"Pediculosis, acariasis and other infestations",B85-B89,Infection Markers
+"Pediculosis, acariasis and other infestations",B85-B89,Microbiology/Infection
+"Pediculosis, acariasis and other infestations",B85-B89,Others
+Sequelae of infectious and parasitic diseases,B90-B94,Infection Markers
+Sequelae of infectious and parasitic diseases,B90-B94,Microbiology/Infection
+Sequelae of infectious and parasitic diseases,B90-B94,Others
+"Bacterial, viral and other infectious agents",B95-B98,Infection Markers
+"Bacterial, viral and other infectious agents",B95-B98,Microbiology/Infection
+Other infectious diseases,B99,Infection Markers
+Other infectious diseases,B99,Microbiology/Infection
+Other infectious diseases,B99,Others
+"Malignant neoplasms of lip, oral cavity and pharynx",C00-C14,Others
+"Malignant neoplasms of lip, oral cavity and pharynx",C00-C14,Tumor Markers
+Malignant neoplasms,C00-C97,Others
+Malignant neoplasms,C00-C97,Tumor Markers
+Malignant neoplasms of digestive organs,C15-C26,GI Markers
+Malignant neoplasms of digestive organs,C15-C26,Others
+Malignant neoplasms of digestive organs,C15-C26,Tumor Markers
+Malignant neoplasms of respiratory and intrathoracic organs,C30-C39,Others
+Malignant neoplasms of respiratory and intrathoracic organs,C30-C39,Tumor Markers
+Malignant neoplasms of bone and articular cartilage,C40-C41,Others
+Malignant neoplasms of bone and articular cartilage,C40-C41,Tumor Markers
+Melanoma and other malignant neoplasms of skin,C43-C44,Others
+Melanoma and other malignant neoplasms of skin,C43-C44,Tumor Markers
+Malignant neoplasms of mesothelial and soft tissue,C45-C49,Others
+Malignant neoplasms of mesothelial and soft tissue,C45-C49,Tumor Markers
+Malignant neoplasm of breast,C50,Others
+Malignant neoplasm of breast,C50,Tumor Markers
+Malignant neoplasms of female genital organs,C51-C58,Others
+Malignant neoplasms of female genital organs,C51-C58,Tumor Markers
+Malignant neoplasms of male genital organs,C60-C63,Others
+Malignant neoplasms of male genital organs,C60-C63,Tumor Markers
+Malignant neoplasms of urinary tract,C64-C68,Others
+Malignant neoplasms of urinary tract,C64-C68,Tumor Markers
+"Malignant neoplasms of eye, brain and other parts of central nervous system",C69-C72,Others
+"Malignant neoplasms of eye, brain and other parts of central nervous system",C69-C72,Tumor Markers
+Malignant neoplasms of thyroid and other endocrine glands,C73-C75,Endocrine
+Malignant neoplasms of thyroid and other endocrine glands,C73-C75,Others
+Malignant neoplasms of thyroid and other endocrine glands,C73-C75,Tumor Markers
+"Malignant neoplasms of ill-defined, secondary and unspecified sites",C76-C80,Others
+"Malignant neoplasms of ill-defined, secondary and unspecified sites",C76-C80,Tumor Markers
+"Malignant neoplasms, stated or presumed to be primary, of lymphoid, haematopoietic and related tissue",C81-C96,Cell Count
+"Malignant neoplasms, stated or presumed to be primary, of lymphoid, haematopoietic and related tissue",C81-C96,Hematology
+"Malignant neoplasms, stated or presumed to be primary, of lymphoid, haematopoietic and related tissue",C81-C96,Others
+"Malignant neoplasms, stated or presumed to be primary, of lymphoid, haematopoietic and related tissue",C81-C96,Tumor Markers
+In situ neoplasms,D00-D09,Others
+In situ neoplasms,D00-D09,Tumor Markers
+Benign neoplasms,D10-D36,Others
+Benign neoplasms,D10-D36,Tumor Markers
+Neoplasms of uncertain or unknown behaviour,D37-D48,Others
+Neoplasms of uncertain or unknown behaviour,D37-D48,Tumor Markers
+Nutritional anaemias,D50-D53,Hematology
+Nutritional anaemias,D50-D53,Others
+Nutritional anaemias,D50-D53,Vitamins/Nutrients
+Haemolytic anaemias,D55-D59,Cell Count
+Haemolytic anaemias,D55-D59,Hematology
+Haemolytic anaemias,D55-D59,Others
+Aplastic and other anaemias,D60-D64,Cell Count
+Aplastic and other anaemias,D60-D64,Hematology
+Aplastic and other anaemias,D60-D64,Others
+"Coagulation defects, purpura and other haemorrhagic conditions",D65-D69,Cell Count
+"Coagulation defects, purpura and other haemorrhagic conditions",D65-D69,Coagulation
+"Coagulation defects, purpura and other haemorrhagic conditions",D65-D69,Hematology
+"Coagulation defects, purpura and other haemorrhagic conditions",D65-D69,Others
+Other diseases of blood and blood-forming organs,D70-D77,Cell Count
+Other diseases of blood and blood-forming organs,D70-D77,Hematology
+Other diseases of blood and blood-forming organs,D70-D77,Others
+Certain disorders involving the immune mechanism,D80-D89,Hematology
+Certain disorders involving the immune mechanism,D80-D89,Others
+Certain disorders involving the immune mechanism,D80-D89,Rheumatology
+Disorders of thyroid gland,E00-E07,Endocrine
+Disorders of thyroid gland,E00-E07,Others
+Diabetes mellitus,E10-E14,Cell Count
+Diabetes mellitus,E10-E14,Electrolytes
+Diabetes mellitus,E10-E14,Endocrine
+Diabetes mellitus,E10-E14,Metabolic
+Diabetes mellitus,E10-E14,Others
+Diabetes mellitus,E10-E14,Renal Function
+Diabetes mellitus,E10-E14,Urinalysis
+Diabetes mellitus,E10-E14,Vitamins/Nutrients
+Other disorders of glucose regulation and pancreatic internal secretion,E15-E16,Endocrine
+Other disorders of glucose regulation and pancreatic internal secretion,E15-E16,Metabolic
+Other disorders of glucose regulation and pancreatic internal secretion,E15-E16,Others
+Disorders of other endocrine glands,E20-E35,Endocrine
+Malnutrition,E40-E46,Cell Count
+Malnutrition,E40-E46,Electrolytes
+Malnutrition,E40-E46,GI Markers
+Malnutrition,E40-E46,Hematology
+Malnutrition,E40-E46,Metabolic
+Malnutrition,E40-E46,Others
+Malnutrition,E40-E46,Renal Function
+Malnutrition,E40-E46,Vitamins/Nutrients
+Other nutritional deficiencies,E50-E64,Others
+Other nutritional deficiencies,E50-E64,Vitamins/Nutrients
+Obesity and other hyperalimentation,E65-E68,Endocrine
+Obesity and other hyperalimentation,E65-E68,Metabolic
+Obesity and other hyperalimentation,E65-E68,Others
+Obesity and other hyperalimentation,E65-E68,Vitamins/Nutrients
+Metabolic disorders,E70-E90,Electrolytes
+Metabolic disorders,E70-E90,Endocrine
+Metabolic disorders,E70-E90,GI Markers
+Metabolic disorders,E70-E90,Liver Function
+Metabolic disorders,E70-E90,Metabolic
+Metabolic disorders,E70-E90,Others
+Metabolic disorders,E70-E90,Renal Function
+Metabolic disorders,E70-E90,Vitamins/Nutrients
+"Organic, including symptomatic, mental disorders",F00-F09,Others
+Mental and behavioural disorders due to psychoactive substance use,F10-F19,Others
+Mental and behavioural disorders due to psychoactive substance use,F10-F19,Toxicology/Drug Level
+"Schizophrenia, schizotypal and delusional disorders",F20-F29,Others
+Mood [affective] disorders,F30-F39,Others
+"Neurotic, stress-related and somatoform disorders",F40-F48,Others
+Behavioural syndromes associated with physiological disturbances and physical factors,F50-F59,Cell Count
+Behavioural syndromes associated with physiological disturbances and physical factors,F50-F59,Electrolytes
+Behavioural syndromes associated with physiological disturbances and physical factors,F50-F59,Endocrine
+Behavioural syndromes associated with physiological disturbances and physical factors,F50-F59,GI Markers
+Behavioural syndromes associated with physiological disturbances and physical factors,F50-F59,Metabolic
+Behavioural syndromes associated with physiological disturbances and physical factors,F50-F59,Others
+Behavioural syndromes associated with physiological disturbances and physical factors,F50-F59,Urinalysis
+Behavioural syndromes associated with physiological disturbances and physical factors,F50-F59,Vitamins/Nutrients
+Disorders of adult personality and behaviour,F60-F69,Others
+Mental retardation,F70-F79,Others
+Disorders of psychological development,F80-F89,Others
+Behavioural and emotional disorders with onset usually occurring in childhood and adolescence,F90-F98,Others
+Unspecified mental disorder,F99,Others
+Inflammatory diseases of the central nervous system,G00-G09,Infection Markers
+Inflammatory diseases of the central nervous system,G00-G09,Microbiology/Infection
+Inflammatory diseases of the central nervous system,G00-G09,Others
+Systemic atrophies primarily affecting the central nervous system,G10-G14,Others
+Extrapyramidal and movement disorders,G20-G26,Others
+Other degenerative diseases of the nervous system,G30-G32,Others
+Demyelinating diseases of the central nervous system,G35-G37,Others
+Episodic and paroxysmal disorders,G40-G47,Others
+"Nerve, nerve root and plexus disorders",G50-G59,Others
+Polyneuropathies and other disorders of the peripheral nervous system,G60-G64,Others
+Diseases of myoneural junction and muscle,G70-G73,Cell Count
+Diseases of myoneural junction and muscle,G70-G73,Electrolytes
+Diseases of myoneural junction and muscle,G70-G73,Metabolic
+Diseases of myoneural junction and muscle,G70-G73,Others
+Cerebral palsy and other paralytic syndromes,G80-G83,Others
+Other disorders of the nervous system,G90-G99,Others
+"Disorders of eyelid, lacrimal system and orbit",H00-H06,Others
+Disorders of conjunctiva,H10-H13,Others
+"Disorders of sclera, cornea, iris and ciliary body",H15-H22,Others
+Disorders of lens,H25-H28,Others
+Disorders of choroid and retina,H30-H36,Others
+Glaucoma,H40-H42,Others
+Disorders of vitreous body and globe,H43-H45,Others
+Disorders of optic nerve and visual pathways,H46-H48,Others
+"Disorders of ocular muscles, binocular movement, accommodation and refraction",H49-H52,Others
+Visual disturbances and blindness,H53-H54,Others
+Other disorders of eye and adnexa,H55-H59,Others
+Diseases of external ear,H60-H62,Others
+Diseases of middle ear and mastoid,H65-H75,Infection Markers
+Diseases of middle ear and mastoid,H65-H75,Microbiology/Infection
+Diseases of middle ear and mastoid,H65-H75,Others
+Diseases of inner ear,H80-H83,Others
+Other disorders of ear,H90-H95,Others
+Acute rheumatic fever,I00-I02,Hematology
+Acute rheumatic fever,I00-I02,Others
+Acute rheumatic fever,I00-I02,Rheumatology
+Chronic rheumatic heart diseases,I05-I09,Cardiovascular
+Chronic rheumatic heart diseases,I05-I09,Cell Count
+Chronic rheumatic heart diseases,I05-I09,Coagulation
+Chronic rheumatic heart diseases,I05-I09,Rheumatology
+Hypertensive diseases,I10-I15,Cardiovascular
+Hypertensive diseases,I10-I15,Cell Count
+Hypertensive diseases,I10-I15,Coagulation
+Hypertensive diseases,I10-I15,Electrolytes
+Hypertensive diseases,I10-I15,Metabolic
+Hypertensive diseases,I10-I15,Others
+Hypertensive diseases,I10-I15,Renal Function
+Ischaemic heart diseases,I20-I25,Cardiovascular
+Ischaemic heart diseases,I20-I25,Cell Count
+Ischaemic heart diseases,I20-I25,Coagulation
+Ischaemic heart diseases,I20-I25,Electrolytes
+Ischaemic heart diseases,I20-I25,Metabolic
+Ischaemic heart diseases,I20-I25,Others
+Pulmonary heart disease and diseases of pulmonary circulation,I26-I28,Cardiovascular
+Pulmonary heart disease and diseases of pulmonary circulation,I26-I28,Others
+Other forms of heart disease,I30-I52,Cardiovascular
+Other forms of heart disease,I30-I52,Cell Count
+Other forms of heart disease,I30-I52,Coagulation
+Other forms of heart disease,I30-I52,Electrolytes
+Other forms of heart disease,I30-I52,Hematology
+Other forms of heart disease,I30-I52,Liver Function
+Other forms of heart disease,I30-I52,Metabolic
+Other forms of heart disease,I30-I52,Others
+Other forms of heart disease,I30-I52,Renal Function
+Cerebrovascular diseases,I60-I69,Cell Count
+Cerebrovascular diseases,I60-I69,Coagulation
+Cerebrovascular diseases,I60-I69,Electrolytes
+Cerebrovascular diseases,I60-I69,Liver Function
+Cerebrovascular diseases,I60-I69,Metabolic
+Cerebrovascular diseases,I60-I69,Others
+Cerebrovascular diseases,I60-I69,Renal Function
+"Diseases of arteries, arterioles and capillaries",I70-I79,Cardiovascular
+"Diseases of arteries, arterioles and capillaries",I70-I79,Others
+"Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",I80-I89,Others
+Other and unspecified disorders of the circulatory system,I95-I99,Cardiovascular
+Other and unspecified disorders of the circulatory system,I95-I99,Cell Count
+Other and unspecified disorders of the circulatory system,I95-I99,Coagulation
+Other and unspecified disorders of the circulatory system,I95-I99,Electrolytes
+Other and unspecified disorders of the circulatory system,I95-I99,Metabolic
+Other and unspecified disorders of the circulatory system,I95-I99,Others
+Other and unspecified disorders of the circulatory system,I95-I99,Renal Function
+Acute upper respiratory infections,J00-J06,Infection Markers
+Acute upper respiratory infections,J00-J06,Microbiology/Infection
+Acute upper respiratory infections,J00-J06,Others
+Influenza and pneumonia,J09-J18,Cell Count
+Influenza and pneumonia,J09-J18,Infection Markers
+Influenza and pneumonia,J09-J18,Microbiology/Infection
+Influenza and pneumonia,J09-J18,Others
+Other acute lower respiratory infections,J20-J22,Infection Markers
+Other acute lower respiratory infections,J20-J22,Microbiology/Infection
+Other acute lower respiratory infections,J20-J22,Others
+Other diseases of upper respiratory tract,J30-J39,Infection Markers
+Other diseases of upper respiratory tract,J30-J39,Microbiology/Infection
+Other diseases of upper respiratory tract,J30-J39,Others
+Chronic lower respiratory diseases,J40-J47,Cell Count
+Chronic lower respiratory diseases,J40-J47,Infection Markers
+Chronic lower respiratory diseases,J40-J47,Microbiology/Infection
+Chronic lower respiratory diseases,J40-J47,Others
+Lung diseases due to external agents,J60-J70,Infection Markers
+Lung diseases due to external agents,J60-J70,Microbiology/Infection
+Lung diseases due to external agents,J60-J70,Others
+Other respiratory diseases principally affecting the interstitium,J80-J84,Others
+Suppurative and necrotic conditions of lower respiratory tract,J85-J86,Cell Count
+Suppurative and necrotic conditions of lower respiratory tract,J85-J86,Infection Markers
+Suppurative and necrotic conditions of lower respiratory tract,J85-J86,Microbiology/Infection
+Suppurative and necrotic conditions of lower respiratory tract,J85-J86,Others
+Other diseases of pleura,J90-J94,Others
+Other diseases of the respiratory system,J95-J99,Others
+"Diseases of oral cavity, salivary glands and jaws",K00-K14,Others
+"Diseases of oesophagus, stomach and duodenum",K20-K31,Cell Count
+"Diseases of oesophagus, stomach and duodenum",K20-K31,GI Markers
+"Diseases of oesophagus, stomach and duodenum",K20-K31,Liver Function
+"Diseases of oesophagus, stomach and duodenum",K20-K31,Metabolic
+"Diseases of oesophagus, stomach and duodenum",K20-K31,Others
+Diseases of appendix,K35-K38,Cell Count
+Diseases of appendix,K35-K38,GI Markers
+Diseases of appendix,K35-K38,Infection Markers
+Diseases of appendix,K35-K38,Microbiology/Infection
+Diseases of appendix,K35-K38,Others
+Hernia,K40-K46,Others
+Noninfective enteritis and colitis,K50-K52,Cell Count
+Noninfective enteritis and colitis,K50-K52,Electrolytes
+Noninfective enteritis and colitis,K50-K52,GI Markers
+Noninfective enteritis and colitis,K50-K52,Hematology
+Noninfective enteritis and colitis,K50-K52,Metabolic
+Noninfective enteritis and colitis,K50-K52,Others
+Other diseases of intestines,K55-K64,GI Markers
+Other diseases of intestines,K55-K64,Others
+Diseases of peritoneum,K65-K67,Cell Count
+Diseases of peritoneum,K65-K67,Coagulation
+Diseases of peritoneum,K65-K67,Electrolytes
+Diseases of peritoneum,K65-K67,GI Markers
+Diseases of peritoneum,K65-K67,Hematology
+Diseases of peritoneum,K65-K67,Infection Markers
+Diseases of peritoneum,K65-K67,Liver Function
+Diseases of peritoneum,K65-K67,Microbiology/Infection
+Diseases of peritoneum,K65-K67,Others
+Diseases of peritoneum,K65-K67,Renal Function
+Diseases of liver,K70-K77,Coagulation
+Diseases of liver,K70-K77,Hematology
+Diseases of liver,K70-K77,Liver Function
+Diseases of liver,K70-K77,Metabolic
+Diseases of liver,K70-K77,Others
+"Disorders of gallbladder, biliary tract and pancreas",K80-K87,GI Markers
+"Disorders of gallbladder, biliary tract and pancreas",K80-K87,Liver Function
+"Disorders of gallbladder, biliary tract and pancreas",K80-K87,Metabolic
+"Disorders of gallbladder, biliary tract and pancreas",K80-K87,Others
+"Disorders of gallbladder, biliary tract and pancreas",K80-K87,Urinalysis
+Other diseases of the digestive system,K90-K93,GI Markers
+Other diseases of the digestive system,K90-K93,Metabolic
+Other diseases of the digestive system,K90-K93,Others
+Infections of the skin and subcutaneous tissue,L00-L08,Infection Markers
+Infections of the skin and subcutaneous tissue,L00-L08,Microbiology/Infection
+Infections of the skin and subcutaneous tissue,L00-L08,Others
+Bullous disorders,L10-L14,Hematology
+Bullous disorders,L10-L14,Others
+Bullous disorders,L10-L14,Rheumatology
+Dermatitis and eczema,L20-L30,Others
+Dermatitis and eczema,L20-L30,Rheumatology
+Papulosquamous disorders,L40-L45,Hematology
+Papulosquamous disorders,L40-L45,Others
+Papulosquamous disorders,L40-L45,Rheumatology
+Urticaria and erythema,L50-L54,Others
+Urticaria and erythema,L50-L54,Rheumatology
+Radiation-related disorders of the skin and subcutaneous tissue,L55-L59,Others
+Disorders of skin appendages,L60-L75,Others
+Other disorders of the skin and subcutaneous tissue,L80-L99,Others
+Infectious arthropathies,M00-M03,Infection Markers
+Infectious arthropathies,M00-M03,Microbiology/Infection
+Infectious arthropathies,M00-M03,Others
+Infectious arthropathies,M00-M03,Rheumatology
+Arthropathies,M00-M25,Hematology
+Arthropathies,M00-M25,Others
+Arthropathies,M00-M25,Rheumatology
+Inflammatory polyarthropathies,M05-M14,Hematology
+Inflammatory polyarthropathies,M05-M14,Others
+Inflammatory polyarthropathies,M05-M14,Rheumatology
+Arthrosis,M15-M19,Rheumatology
+Other joint disorders,M20-M25,Hematology
+Other joint disorders,M20-M25,Others
+Other joint disorders,M20-M25,Rheumatology
+Systemic connective tissue disorders,M30-M36,Cell Count
+Systemic connective tissue disorders,M30-M36,Coagulation
+Systemic connective tissue disorders,M30-M36,Electrolytes
+Systemic connective tissue disorders,M30-M36,Hematology
+Systemic connective tissue disorders,M30-M36,Liver Function
+Systemic connective tissue disorders,M30-M36,Metabolic
+Systemic connective tissue disorders,M30-M36,Others
+Systemic connective tissue disorders,M30-M36,Renal Function
+Systemic connective tissue disorders,M30-M36,Rheumatology
+Systemic connective tissue disorders,M30-M36,Urinalysis
+Deforming dorsopathies,M40-M43,Others
+Deforming dorsopathies,M40-M43,Rheumatology
+Spondylopathies,M45-M49,Others
+Spondylopathies,M45-M49,Rheumatology
+Other dorsopathies,M50-M54,Others
+Disorders of muscles,M60-M63,Others
+Disorders of synovium and tendon,M65-M68,Others
+Disorders of synovium and tendon,M65-M68,Rheumatology
+Other soft tissue disorders,M70-M79,Others
+Other soft tissue disorders,M70-M79,Rheumatology
+Disorders of bone density and structure,M80-M85,Metabolic
+Disorders of bone density and structure,M80-M85,Others
+Disorders of bone density and structure,M80-M85,Vitamins/Nutrients
+Other osteopathies,M86-M90,Others
+Other osteopathies,M86-M90,Rheumatology
+Chondropathies,M91-M94,Others
+Chondropathies,M91-M94,Rheumatology
+Other disorders of the musculoskeletal system and connective tissue,M95-M99,Others
+Other disorders of the musculoskeletal system and connective tissue,M95-M99,Rheumatology
+Glomerular diseases,N00-N08,Electrolytes
+Glomerular diseases,N00-N08,Others
+Glomerular diseases,N00-N08,Renal Function
+Glomerular diseases,N00-N08,Urinalysis
+Renal tubulo-interstitial diseases,N10-N16,Electrolytes
+Renal tubulo-interstitial diseases,N10-N16,Others
+Renal tubulo-interstitial diseases,N10-N16,Renal Function
+Renal tubulo-interstitial diseases,N10-N16,Urinalysis
+Renal failure,N17-N19,Electrolytes
+Renal failure,N17-N19,Metabolic
+Renal failure,N17-N19,Others
+Renal failure,N17-N19,Renal Function
+Renal failure,N17-N19,Urinalysis
+Urolithiasis,N20-N23,Electrolytes
+Urolithiasis,N20-N23,Others
+Urolithiasis,N20-N23,Renal Function
+Urolithiasis,N20-N23,Urinalysis
+Other disorders of kidney and ureter,N25-N29,Electrolytes
+Other disorders of kidney and ureter,N25-N29,Metabolic
+Other disorders of kidney and ureter,N25-N29,Others
+Other disorders of kidney and ureter,N25-N29,Renal Function
+Other disorders of kidney and ureter,N25-N29,Urinalysis
+Other diseases of urinary system,N30-N39,Infection Markers
+Other diseases of urinary system,N30-N39,Microbiology/Infection
+Other diseases of urinary system,N30-N39,Others
+Other diseases of urinary system,N30-N39,Urinalysis
+Diseases of male genital organs,N40-N51,Others
+Diseases of male genital organs,N40-N51,Urinalysis
+Disorders of breast,N60-N64,Others
+Disorders of breast,N60-N64,Tumor Markers
+Inflammatory diseases of female pelvic organs,N70-N77,Infection Markers
+Inflammatory diseases of female pelvic organs,N70-N77,Microbiology/Infection
+Inflammatory diseases of female pelvic organs,N70-N77,Others
+Inflammatory diseases of female pelvic organs,N70-N77,Rheumatology
+Noninflammatory disorders of female genital tract,N80-N98,Others
+Other disorders of the genitourinary system,N99,Others
+Other disorders of the genitourinary system,N99,Urinalysis
+Pregnancy with abortive outcome,O00-O08,Coagulation
+Pregnancy with abortive outcome,O00-O08,Genetic/Reproductive/Pregnancy
+Pregnancy with abortive outcome,O00-O08,Hematology
+Pregnancy with abortive outcome,O00-O08,Others
+Pregnancy with abortive outcome,O00-O08,Urinalysis
+childbirth and the puerperium,O10-O16,Others
+Other maternal disorders predominantly related to pregnancy,O20-O29,Coagulation
+Other maternal disorders predominantly related to pregnancy,O20-O29,Genetic/Reproductive/Pregnancy
+Other maternal disorders predominantly related to pregnancy,O20-O29,Hematology
+Other maternal disorders predominantly related to pregnancy,O20-O29,Others
+Other maternal disorders predominantly related to pregnancy,O20-O29,Urinalysis
+Maternal care related to the fetus and amniotic cavity and possible delivery problems,O30-O48,Blood Gas&Acid-Base
+Maternal care related to the fetus and amniotic cavity and possible delivery problems,O30-O48,Cell Count
+Maternal care related to the fetus and amniotic cavity and possible delivery problems,O30-O48,Coagulation
+Maternal care related to the fetus and amniotic cavity and possible delivery problems,O30-O48,Electrolytes
+Maternal care related to the fetus and amniotic cavity and possible delivery problems,O30-O48,Genetic/Reproductive/Pregnancy
+Maternal care related to the fetus and amniotic cavity and possible delivery problems,O30-O48,Liver Function
+Maternal care related to the fetus and amniotic cavity and possible delivery problems,O30-O48,Metabolic
+Maternal care related to the fetus and amniotic cavity and possible delivery problems,O30-O48,Others
+Maternal care related to the fetus and amniotic cavity and possible delivery problems,O30-O48,Renal Function
+Maternal care related to the fetus and amniotic cavity and possible delivery problems,O30-O48,Urinalysis
+Complications of labour and delivery,O60-O75,Cell Count
+Complications of labour and delivery,O60-O75,Coagulation
+Complications of labour and delivery,O60-O75,Electrolytes
+Complications of labour and delivery,O60-O75,Hematology
+Complications of labour and delivery,O60-O75,Liver Function
+Complications of labour and delivery,O60-O75,Others
+Complications of labour and delivery,O60-O75,Renal Function
+Complications of labour and delivery,O60-O75,Urinalysis
+Complications predominantly related to the puerperium,O85-O92,Cell Count
+Complications predominantly related to the puerperium,O85-O92,Coagulation
+Complications predominantly related to the puerperium,O85-O92,Electrolytes
+Complications predominantly related to the puerperium,O85-O92,Hematology
+Complications predominantly related to the puerperium,O85-O92,Infection Markers
+Complications predominantly related to the puerperium,O85-O92,Liver Function
+Complications predominantly related to the puerperium,O85-O92,Microbiology/Infection
+Complications predominantly related to the puerperium,O85-O92,Others
+Complications predominantly related to the puerperium,O85-O92,Renal Function
+"Other obstetric conditions, not elsewhere classified",O94-O99,Others
+Disorders related to length of gestation and fetal growth,P05-P08,Others
+Birth trauma,P10-P15,Cell Count
+Birth trauma,P10-P15,Coagulation
+Birth trauma,P10-P15,Others
+Respiratory and cardiovascular disorders specific to the perinatal period,P20-P29,Others
+Infections specific to the perinatal period,P35-P39,Infection Markers
+Infections specific to the perinatal period,P35-P39,Microbiology/Infection
+Haemorrhagic and haematological disorders of fetus and newborn,P50-P61,Cell Count
+Haemorrhagic and haematological disorders of fetus and newborn,P50-P61,Coagulation
+Haemorrhagic and haematological disorders of fetus and newborn,P50-P61,Hematology
+Haemorrhagic and haematological disorders of fetus and newborn,P50-P61,Others
+Transitory endocrine and metabolic disorders specific to fetus and newborn,P70-P74,Cell Count
+Transitory endocrine and metabolic disorders specific to fetus and newborn,P70-P74,Electrolytes
+Transitory endocrine and metabolic disorders specific to fetus and newborn,P70-P74,Endocrine
+Transitory endocrine and metabolic disorders specific to fetus and newborn,P70-P74,Hematology
+Transitory endocrine and metabolic disorders specific to fetus and newborn,P70-P74,Metabolic
+Transitory endocrine and metabolic disorders specific to fetus and newborn,P70-P74,Others
+Transitory endocrine and metabolic disorders specific to fetus and newborn,P70-P74,Urinalysis
+Digestive system disorders of fetus and newborn,P75-P78,Cell Count
+Digestive system disorders of fetus and newborn,P75-P78,Electrolytes
+Digestive system disorders of fetus and newborn,P75-P78,GI Markers
+Digestive system disorders of fetus and newborn,P75-P78,Hematology
+Digestive system disorders of fetus and newborn,P75-P78,Liver Function
+Digestive system disorders of fetus and newborn,P75-P78,Metabolic
+Digestive system disorders of fetus and newborn,P75-P78,Others
+Digestive system disorders of fetus and newborn,P75-P78,Renal Function
+Digestive system disorders of fetus and newborn,P75-P78,Urinalysis
+Conditions involving the integument and temperature regulation of fetus and newborn,P80-P83,Others
+Other disorders originating in the perinatal period,P90-P96,Others
+Congenital malformations of the nervous system,Q00-Q07,Others
+"Congenital malformations of eye, ear, face and neck",Q10-Q18,Others
+Congenital malformations of the circulatory system,Q20-Q28,Cardiovascular
+Congenital malformations of the circulatory system,Q20-Q28,Others
+Congenital malformations of the respiratory system,Q30-Q34,Others
+Cleft lip and cleft palate,Q35-Q37,Others
+Other congenital malformations of the digestive system,Q38-Q45,GI Markers
+Other congenital malformations of the digestive system,Q38-Q45,Others
+Congenital malformations of genital organs,Q50-Q56,Genetic/Reproductive/Pregnancy
+Congenital malformations of genital organs,Q50-Q56,Others
+Congenital malformations of the urinary system,Q60-Q64,Others
+Congenital malformations of the urinary system,Q60-Q64,Renal Function
+Congenital malformations of the urinary system,Q60-Q64,Urinalysis
+Congenital malformations and deformations of the musculoskeletal system,Q65-Q79,Others
+Other congenital malformations,Q80-Q89,Others
+"Chromosomal abnormalities, not elsewhere classified",Q90-Q99,Genetic/Reproductive/Pregnancy
+"Chromosomal abnormalities, not elsewhere classified",Q90-Q99,Others
+Symptoms and signs involving the circulatory and respiratory systems,R00-R09,Cardiovascular
+Symptoms and signs involving the circulatory and respiratory systems,R00-R09,Others
+Symptoms and signs involving the digestive system and abdomen,R10-R19,Cell Count
+Symptoms and signs involving the digestive system and abdomen,R10-R19,GI Markers
+Symptoms and signs involving the digestive system and abdomen,R10-R19,Metabolic
+Symptoms and signs involving the digestive system and abdomen,R10-R19,Others
+Symptoms and signs involving the digestive system and abdomen,R10-R19,Urinalysis
+Symptoms and signs involving the skin and subcutaneous tissue,R20-R23,Others
+Symptoms and signs involving the nervous and musculoskeletal systems,R25-R29,Others
+Symptoms and signs involving the urinary system,R30-R39,Others
+Symptoms and signs involving the urinary system,R30-R39,Urinalysis
+"Symptoms and signs involving cognition, perception, emotional state and behaviour",R40-R46,Others
+Symptoms and signs involving speech and voice,R47-R49,Others
+General symptoms and signs,R50-R69,Others
+"Abnormal findings on examination of blood, without diagnosis",R70-R79,Coagulation
+"Abnormal findings on examination of blood, without diagnosis",R70-R79,Electrolytes
+"Abnormal findings on examination of blood, without diagnosis",R70-R79,Hematology
+"Abnormal findings on examination of blood, without diagnosis",R70-R79,Liver Function
+"Abnormal findings on examination of blood, without diagnosis",R70-R79,Metabolic
+"Abnormal findings on examination of blood, without diagnosis",R70-R79,Others
+"Abnormal findings on examination of blood, without diagnosis",R70-R79,Renal Function
+"Abnormal findings on examination of blood, without diagnosis",R70-R79,Urinalysis
+"Abnormal findings on examination of urine, without diagnosis",R80-R82,Others
+"Abnormal findings on examination of urine, without diagnosis",R80-R82,Urinalysis
+"Abnormal findings on diagnostic imaging and in function studies, without diagnosis",R90-R94,Others
+Injuries to the head,S00-S09,Blood Gas&Acid-Base
+Injuries to the head,S00-S09,Cell Count
+Injuries to the head,S00-S09,Coagulation
+Injuries to the head,S00-S09,Electrolytes
+Injuries to the head,S00-S09,Liver Function
+Injuries to the head,S00-S09,Others
+Injuries to the head,S00-S09,Renal Function
+Injuries to the head,S00-S09,Urinalysis
+Injuries to the neck,S10-S19,Others
+Injuries to the thorax,S20-S29,Others
+"Injuries to the abdomen, lower back, lumbar spine and pelvis",S30-S39,Others
+Injuries to the shoulder and upper arm,S40-S49,Others
+Injuries to the elbow and forearm,S50-S59,Cell Count
+Injuries to the elbow and forearm,S50-S59,Coagulation
+Injuries to the elbow and forearm,S50-S59,Electrolytes
+Injuries to the elbow and forearm,S50-S59,Others
+Injuries to the elbow and forearm,S50-S59,Renal Function
+Injuries to the wrist and hand,S60-S69,Others
+Injuries to the hip and thigh,S70-S79,Others
+Injuries to the knee and lower leg,S80-S89,Cell Count
+Injuries to the knee and lower leg,S80-S89,Coagulation
+Injuries to the knee and lower leg,S80-S89,Electrolytes
+Injuries to the knee and lower leg,S80-S89,Others
+Injuries to the knee and lower leg,S80-S89,Renal Function
+Injuries to the ankle and foot,S90-S99,Others
+Injuries involving multiple body regions,T00-T07,Blood Gas&Acid-Base
+Injuries involving multiple body regions,T00-T07,Cell Count
+Injuries involving multiple body regions,T00-T07,Coagulation
+Injuries involving multiple body regions,T00-T07,Electrolytes
+Injuries involving multiple body regions,T00-T07,Liver Function
+Injuries involving multiple body regions,T00-T07,Others
+Injuries involving multiple body regions,T00-T07,Renal Function
+"Injuries to unspecified part of trunk, limb or body region",T08-T14,Others
+Effects of foreign body entering through natural orifice,T15-T19,Others
+"Burns and corrosions of external body surface, specified by site",T20-T25,Others
+Burns and corrosions,T20-T32,Cell Count
+Burns and corrosions,T20-T32,Electrolytes
+Burns and corrosions,T20-T32,Metabolic
+Burns and corrosions,T20-T32,Others
+Burns and corrosions,T20-T32,Renal Function
+Burns and corrosions confined to eye and internal organs,T26-T28,Others
+Burns and corrosions of multiple and unspecified body regions,T29-T32,Cell Count
+Burns and corrosions of multiple and unspecified body regions,T29-T32,Electrolytes
+Burns and corrosions of multiple and unspecified body regions,T29-T32,Metabolic
+Burns and corrosions of multiple and unspecified body regions,T29-T32,Others
+Burns and corrosions of multiple and unspecified body regions,T29-T32,Renal Function
+Frostbite,T33-T35,Others
+"Poisoning by drugs, medicaments and biological substances",T36-T50,Others
+"Poisoning by drugs, medicaments and biological substances",T36-T50,Toxicology/Drug Level
+Toxic effects of substances chiefly nonmedicinal as to source,T51-T65,Others
+Toxic effects of substances chiefly nonmedicinal as to source,T51-T65,Toxicology/Drug Level
+Other and unspecified effects of external causes,T66-T78,Others
+Other and unspecified effects of external causes,T66-T78,Toxicology/Drug Level
+Certain early complications of trauma,T79,Cell Count
+Certain early complications of trauma,T79,Coagulation
+Certain early complications of trauma,T79,Electrolytes
+Certain early complications of trauma,T79,Liver Function
+Certain early complications of trauma,T79,Metabolic
+Certain early complications of trauma,T79,Others
+Certain early complications of trauma,T79,Renal Function
+"Complications of surgical and medical care, not elsewhere classified",T80-T88,Others
+Provisional assignment of new diseases of uncertain etiology or emergency use,U00-U49,Infection Markers
+Provisional assignment of new diseases of uncertain etiology or emergency use,U00-U49,Microbiology/Infection
+Provisional assignment of new diseases of uncertain etiology or emergency use,U00-U49,Others
+Pedestrian injured in transport accident,V01-V09,Others
+Pedal cyclist injured in transport accident,V10-V19,Others
+Motorcycle rider injured in transport accident,V20-V29,Others
+Occupant of three-wheeled motor vehicle injured in transport accident,V30-V39,Others
+Car occupant injured in transport accident,V40-V49,Others
+Occupant of pick-up truck or van injured in transport accident,V50-V59,Others
+Occupant of heavy transport vehicle injured in transport accident,V60-V69,Blood Gas&Acid-Base
+Occupant of heavy transport vehicle injured in transport accident,V60-V69,Cell Count
+Occupant of heavy transport vehicle injured in transport accident,V60-V69,Coagulation
+Occupant of heavy transport vehicle injured in transport accident,V60-V69,Electrolytes
+Occupant of heavy transport vehicle injured in transport accident,V60-V69,Liver Function
+Occupant of heavy transport vehicle injured in transport accident,V60-V69,Others
+Occupant of heavy transport vehicle injured in transport accident,V60-V69,Renal Function
+Occupant of heavy transport vehicle injured in transport accident,V60-V69,Urinalysis
+Bus occupant injured in transport accident,V70-V79,Others
+Other land transport accidents,V80-V89,Others
+Water transport accidents,V90-V94,Others
+Air and space transport accidents,V95-V97,Others
+Other and unspecified transport accidents,V98-V99,Others
+Falls,W00-W19,Others
+Exposure to inanimate mechanical forces,W20-W49,Others
+Exposure to animate mechanical forces,W50-W64,Others
+Accidental drowning and submersion,W65-W74,Others
+"Exposure to electric current, radiation and extreme ambient air temperature and pressure",W85-W99,Blood Gas&Acid-Base
+"Exposure to electric current, radiation and extreme ambient air temperature and pressure",W85-W99,Cell Count
+"Exposure to electric current, radiation and extreme ambient air temperature and pressure",W85-W99,Coagulation
+"Exposure to electric current, radiation and extreme ambient air temperature and pressure",W85-W99,Electrolytes
+"Exposure to electric current, radiation and extreme ambient air temperature and pressure",W85-W99,Liver Function
+"Exposure to electric current, radiation and extreme ambient air temperature and pressure",W85-W99,Others
+"Exposure to electric current, radiation and extreme ambient air temperature and pressure",W85-W99,Renal Function
+"Exposure to electric current, radiation and extreme ambient air temperature and pressure",W85-W99,Toxicology/Drug Level
+"Exposure to electric current, radiation and extreme ambient air temperature and pressure",W85-W99,Urinalysis
+"Exposure to smoke, fire and flames",X00-X09,Others
+"Exposure to smoke, fire and flames",X00-X09,Toxicology/Drug Level
+Contact with heat and hot substances,X10-X19,Others
+Exposure to forces of nature,X30-X39,Others
+Exposure to forces of nature,X30-X39,Toxicology/Drug Level
+"Overexertion, travel and privation",X50-X57,Others
+Accidental exposure to other and unspecified factors,X58-X59,Others
+Accidental exposure to other and unspecified factors,X58-X59,Toxicology/Drug Level
+Intentional self-harm,X60-X84,Blood Gas&Acid-Base
+Intentional self-harm,X60-X84,Cell Count
+Intentional self-harm,X60-X84,Coagulation
+Intentional self-harm,X60-X84,Electrolytes
+Intentional self-harm,X60-X84,Liver Function
+Intentional self-harm,X60-X84,Metabolic
+Intentional self-harm,X60-X84,Others
+Intentional self-harm,X60-X84,Renal Function
+Intentional self-harm,X60-X84,Toxicology/Drug Level
+Intentional self-harm,X60-X84,Urinalysis
+Assault,X85-Y09,Others
+Event of undetermined intent,Y10-Y34,Others
+Event of undetermined intent,Y10-Y34,Toxicology/Drug Level
+Legal intervention and operations of war,Y35-Y36,Others
+Complications of medical and surgical care,Y40-Y84,Others
+Misadventures to patients during surgical and medical care,Y60-Y69,Others
+Medical devices associated with adverse incidents in diagnostic and therapeutic use,Y70-Y82,Others
+"Surgical and other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",Y83-Y84,Others
+Supplementary factors related to causes of morbidity and mortality classified elsewhere,Y90-Y98,Others
+Persons with potential health hazards related to communicable diseases,Z20-Z29,Infection Markers
+Persons with potential health hazards related to communicable diseases,Z20-Z29,Microbiology/Infection
+Persons with potential health hazards related to communicable diseases,Z20-Z29,Others
+Persons encountering health services in other circumstances,Z70-Z76,Others
+Persons with potential health hazards related to family and personal history and certain conditions influencing health status,Z80-Z99,Others
