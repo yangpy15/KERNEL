@@ -17,8 +17,16 @@ env/
 .env.*
 !.env.example
 
-# Restricted or locally generated project resources
-data/
+# Restricted or locally generated project resources. Only the public lookup
+# and vocabulary files below are intentionally versioned.
+data/*
+!data/icd10_titles.csv
+!data/icd2test_tag.csv
+!data/test_tag_list.xlsx
+!data/MC-MED_test_tag.xlsx
+!data/MIMIC-IV_test_tag.xlsx
+!data/MedlinePlus_test_tag.xlsx
+!data/MedlinePlus_kg.json
 outputs/
 knowledge/
 
