@@ -180,10 +180,9 @@ KERNEL writes only the identifier, final recommendation, and final rationale to 
 
 ### MedlinePlus Final-Rationale Evidence
 
-The mainline automatically loads the bundled structured MedlinePlus laboratory resource from `data/MedlinePlus_kg.json`; no MedlinePlus enable or
-decision-mode argument is required. MedlinePlus is never included in the first-pass recommendation prompt, candidate screening, evidence completion, or reassessment. After `recommended_test_tags` has been finalized, the program selects MedlinePlus evidence only for those final tags and supplies it to the final clinician-facing rationale call, which is enabled by default.
+The mainline automatically loads the bundled structured MedlinePlus laboratory resource from `data/MedlinePlus_kg.json`; no MedlinePlus enable or decision-mode argument is required. After `recommended_test_tags` has been finalized, the program selects MedlinePlus evidence only for those final tags and supplies it to the final clinician-facing rationale call, which is enabled by default.
 
-When supplied, the optional external diagnosis knowledge graph supports diagnosis expansion and diagnosis-aware retrieval before the recommendation is finalized. In contrast, MedlinePlus can change only `final_explanation`, not `recommended_test_tags`. The `data/MedlinePlus_test_tag.xlsx` workbook is a reference laboratory-name mapping and is not used at runtime; it is distinct from the structured MedlinePlus JSON used for final-rationale evidence.
+The `data/MedlinePlus_test_tag.xlsx` is a reference laboratory-name mapping and is not used at runtime; it is distinct from the structured MedlinePlus JSON used for final-rationale evidence.
 
 ## Evaluation
 
@@ -199,8 +198,7 @@ python src/evaluate.py \
 
 ## Data Availability and Intended Use
 
-The clinical datasets used by KERNEL are restricted-access resources and are not redistributed here. This repository provides code for training, inference, and evaluation from model-ready tables, prompt templates, the released ICD-block and laboratory-category vocabularies, reference laboratory mappings from our experiments, and a download link for the pretrained MC-MED and MIMIC-IV Stage 1 checkpoints. Users may use one of the pretrained checkpoints or train a new Stage 1 model from an authorized clinical dataset after completing their own dataset-specific preprocessing and mapping. Patient-level data and the two external diagnosis-KG input tables are not redistributed and must be obtained or prepared separately by authorized users.
-
+The clinical datasets (MC-MED and MIMIC-IV) used by KERNEL are restricted-access resources and are not redistributed here.
 KERNEL is research software for clinical decision support. Its recommendations must not be interpreted as autonomous laboratory orders and do not replace qualified clinical judgment.
 
 ## Citation
