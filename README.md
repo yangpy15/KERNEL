@@ -55,41 +55,32 @@ The exact system, first-pass recommendation, reassessment, final-rationale, and 
 
 ### How to Use the Python Files
 
-| File                         | Usage                                                                                                                |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| `src/run_kernel.py`        | Main executable for building EOP and retrieval evidence, running KERNEL inference, and saving recommendations.      |
-| `src/train_diagnosis.py`   | Train the Stage 1 cross-encoder from prepared patient contexts and ICD-block labels.                                |
-| `src/predict_diagnosis.py` | Generate ranked Stage 1 ICD-block predictions.                                                                       |
-| `src/diagnosis_model.py`   | Shared Stage 1 training and prediction implementation.                                                               |
-| `src/evaluate.py`          | Run after inference to calculate recommendation metrics.                                                             |
-| `src/prompts.py`           | View or edit the exact prompts used at each LLM stage. This file is imported automatically and is not run directly. |
-| `src/inference_utils.py`   | Shared EOP, retrieval, and Transformers inference functions imported by`run_kernel.py`.                           |
-| `src/retrieval.py`         | Text-encoder and retrieval functions imported by the main program.                                                  |
-| `src/common.py`            | Shared text-processing and progress utilities.                                                                       |
+| File                         | Usage                                                                                                                 |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| `src/run_kernel.py`        | Main executable for building EOP and retrieval evidence, running KERNEL inference, and saving recommendations.       |
+| `src/train_diagnosis.py`   | Train the Stage 1 cross-encoder from prepared patient contexts and ICD-block labels.                                |
+| `src/predict_diagnosis.py` | Generate ranked Stage 1 ICD-block predictions.                                                                        |
+| `src/diagnosis_model.py`   | Shared Stage 1 training and prediction implementation.                                                                |
+| `src/evaluate.py`          | Run after inference to calculate recommendation metrics.                                                             |
+| `src/prompts.py`           | View or edit the exact prompts used at each LLM stage. This file is imported automatically and is not run directly. |
+| `src/inference_utils.py`   | Shared EOP, retrieval, and Transformers inference functions imported by`run_kernel.py`.                            |
+| `src/retrieval.py`         | Text-encoder and retrieval functions imported by the main program.                                                   |
+| `src/common.py`            | Shared text-processing and progress utilities.                                                                        |
 
 ## Step 1: Prepare the Data
 
-KERNEL begins from model-ready tables. Construction of `patient_full_context`, de-identification, raw ICD normalization, and raw laboratory-name mapping are dataset-specific upstream steps and are not performed by the released training, inference, or evaluation programs. Users must complete these steps for their authorized clinical data before running KERNEL.
+Users must complete de-identification, `patient_full_context` construction, ICD-block mapping, and laboratory-category mapping for their own data before running the released programs.
 
-Stage 1 training and validation tables must contain:
+| Input                       | Required columns                                                        |
+| --------------------------- | ----------------------------------------------------------------------- |
+| Stage 1 training/validation | `visit_row_id`, `patient_full_context`, `gold_icd_codes`          |
+| Mainline training           | All Stage 1 columns plus`CC`, `gold_icd_titles`, `gold_test_tags` |
+| Evaluation visits           | `visit_row_id`, `patient_full_context`, `CC`                      |
+| Evaluation gold             | `visit_row_id`, `gold_test_tags`                                    |
 
-- `visit_row_id`: unique visit identifier.
-- `patient_full_context`: final clinical text supplied to the encoder.
-- `gold_icd_codes`: semicolon-separated ICD block codes already mapped to the released label vocabulary.
+Multiple ICD blocks or laboratory categories must be separated by semicolons, and `gold_icd_codes` must align one-to-one with `gold_icd_titles`.
 
-The prepared training table supplied to the KERNEL mainline must additionally contain:
-
-- `CC`: prepared chief complaint.
-- `gold_icd_titles`: semicolon-separated ICD block titles aligned one-to-one with `gold_icd_codes`.
-- `gold_test_tags`: semicolon-separated laboratory categories already mapped to `data/test_tag_list.xlsx`.
-
-Evaluation-visit tables used for prediction require `visit_row_id` and `patient_full_context`. Formal evaluation gold files require `visit_row_id` and the already-mapped `gold_test_tags` column.
-
-`data/icd10_titles.csv` defines the 273 ICD-block labels used by Stage 1. The laboratory mapping workbooks in `data/`, including `MC-MED_test_tag.xlsx`, are provided only as references from our experiments. They are not automatically loaded by training, inference, or evaluation, because raw laboratory schemas and mapping procedures differ across institutions.
-
-Laboratory orders or prepared laboratory-category labels from the training partition are used to estimate Empirical Ordering Patterns (EOP) and construct retrieval evidence. These labels are evidence sources and are not included in `patient_full_context`. EOP and retrieval indexes are method components built only from the prepared training partition during inference.
-
-Clinical datasets and patient-level records are not distributed in this repository. Users must obtain access through the applicable official procedures and comply with their data-use agreements. The released workflow therefore reproduces KERNEL from prepared, model-ready data rather than from raw EHR tables. Field names are centralized near the top of `src/common.py` and may be adapted to a compatible prepared schema.
+`data/icd10_titles.csv` file is pre-provided and contains the definitions of the 273 labels used in Stage 1. The laboratory mapping workbooks in `data/` are reference files only and are not loaded automatically.
 
 ## Step 2: Training
 
@@ -150,10 +141,22 @@ python src/run_kernel.py \
   --review-path PATH_TO_ICD_PREDICTIONS.csv \
   --eval-path PATH_TO_EVALUATION_VISITS.csv \
   --train-gold-path PATH_TO_GOLD_TRAIN.csv \
+  --output-path PATH_TO_KERNEL_PREDICTIONS.csv
+```
+
+An external diagnosis knowledge graph is optional. To enable diagnosis-concept expansion and diagnosis-aware similar-case retrieval, provide both related files:
+
+```bash
+python src/run_kernel.py \
+  --review-path PATH_TO_ICD_PREDICTIONS.csv \
+  --eval-path PATH_TO_EVALUATION_VISITS.csv \
+  --train-gold-path PATH_TO_GOLD_TRAIN.csv \
   --diagnosis-kg-path PATH_TO_DIAGNOSIS_KG.csv \
   --concept-metadata-path PATH_TO_CONCEPT_METADATA.csv \
   --output-path PATH_TO_KERNEL_PREDICTIONS.csv
 ```
+
+The two diagnosis-KG arguments must be supplied together. When they are omitted, KERNEL skips diagnosis-KG expansion and diagnosis-aware retrieval while retaining Stage 1 predictions, ICD block-to-test-tag knowledge, EOP, patient-context retrieval, reassessment, evidence completion, and final-rationale generation.
 
 ### Automatic Evidence Preparation During Inference
 
@@ -180,7 +183,7 @@ KERNEL writes only the identifier, final recommendation, and final rationale to 
 The mainline automatically loads the bundled structured MedlinePlus laboratory resource from `data/MedlinePlus_kg.json`; no MedlinePlus enable or
 decision-mode argument is required. MedlinePlus is never included in the first-pass recommendation prompt, candidate screening, evidence completion, or reassessment. After `recommended_test_tags` has been finalized, the program selects MedlinePlus evidence only for those final tags and supplies it to the final clinician-facing rationale call, which is enabled by default.
 
-The external diagnosis knowledge graph is part of the KERNEL mainline and is supplied through `--diagnosis-kg-path` and `--concept-metadata-path`. It supports diagnosis expansion and KG-aware retrieval before the recommendation is finalized. In contrast, MedlinePlus can change only `final_explanation`, not `recommended_test_tags`. The `data/MedlinePlus_test_tag.xlsx` workbook is a reference laboratory-name mapping and is not used at runtime; it is distinct from the structured MedlinePlus JSON used for final-rationale evidence.
+When supplied, the optional external diagnosis knowledge graph supports diagnosis expansion and diagnosis-aware retrieval before the recommendation is finalized. In contrast, MedlinePlus can change only `final_explanation`, not `recommended_test_tags`. The `data/MedlinePlus_test_tag.xlsx` workbook is a reference laboratory-name mapping and is not used at runtime; it is distinct from the structured MedlinePlus JSON used for final-rationale evidence.
 
 ## Evaluation
 
